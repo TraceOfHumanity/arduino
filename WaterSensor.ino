@@ -19,6 +19,5 @@ void loop()
   else
   {
     noTone(2);
-    // digitalWrite(2, LOW);
   }
 }
