@@ -6,8 +6,8 @@ void setup()
 
 void loop()
 {
-  tone(soundPin, 100);
-  delay(150);
+  tone(soundPin, 150);
+  delay(500);
   noTone(soundPin);
-  delay(30);
+  delay(500);
 }	
