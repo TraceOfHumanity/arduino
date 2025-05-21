@@ -1,4 +1,4 @@
-# Pin 13 Project
+### Pin 13 Circuit
 
 ![Pin 13 Circuit](pin13.jpeg)
 
