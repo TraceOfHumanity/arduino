@@ -9,6 +9,14 @@ void setup()
 
 void loop()
 {
-  Serial.println(digitalRead(BUTTON_PIN));
+  // Serial.println(diitalRead(BUTTON_PIN));
+  if (digitalRead(BUTTON_PIN) == HIGH)
+  {
+    Serial.println("Button pressed");
+  }
+  else
+  {
+    Serial.println("Button not pressed");
+  }
   delay(100);
 }
